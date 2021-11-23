@@ -2,7 +2,7 @@
 <template name="card_pinned">
   <view class="card pin">
     <view class="card-main">
-      <view class="card-inner" onclick=>
+      <view class="card-inner">
         <view class="header">
           <p style="color: #1990FF;">{{repoName}}</p>
           <p class="fa fa-code-fork">{{forkCount}}</p>
@@ -75,7 +75,14 @@
   </view>
 
   <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
-    <p>Repository</p>
+    <p style="width: 350rpx;">Repositories</p>
+    <view>
+      <p>All</p>
+    </view>
+    <view>
+      <p class="fa fa-sort-alpha-asc"></p>
+    </view>
+    <p class="fa fa-plus"></p>
   </view>
   <view class="pin_col" wx:for="{{2}}">
     <view class="card" style="margin: 18rpx 24rpx;">
