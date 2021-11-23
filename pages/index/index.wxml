@@ -57,7 +57,7 @@
     <view class="pin_row">
       <view class="card pin" wx:for="{{2}}" >
         <view class="card-main">
-          <view class="card-inner" onclick=>
+          <view class="card-inner">
             <view class="header">
               <p style="color: #1990FF;">EE308</p>
               <p class="fa fa-code-fork">{{4}}</p>
