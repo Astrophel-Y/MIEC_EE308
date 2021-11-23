@@ -1,25 +1,110 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="header" style="margin: 12rpx 24rpx;">
-    <p>Pinned</p>
-    <i class="fas fa-pencil-alt"></i>
+<template name="card_pinned">
+  <view class="card pin">
+    <view class="card-main">
+      <view class="card-inner" onclick=>
+        <view class="header">
+          <p style="color: #1990FF;">{{repoName}}</p>
+          <p class="fa fa-code-fork">{{forkCount}}</p>
+        </view>
+        <view>
+          <p style="font-size:xx-small; color:#d2d2d2">Updated {{updateTime}} ago</p>
+        </view>
+        <view style="text-align: right; margin-top: 10rpx;">
+          <p class="priv">{{privacyState}}</p>
+        </view>
+      </view>
+    </view>
+  </view> 
+</template>
+
+<template name="card_repo">
+  <view class="card" style="margin: 18rpx 24rpx;">
+    <view class="card-main">
+      <view class="card-inner">
+        <view class="header">
+          <p style="color: #1990FF;">{{repoName}}</p>
+          <p class="priv">{{privacyState}}</p>
+        </view>
+        <view>
+          <p style="font-size:xx-small;">Forked from {{forkRepo}}</p>
+        </view>
+        <view style="display: flex; flex-direction: row; font-size: small; margin-top: 15rpx;">
+          <view style="margin-right: 15rpx;">
+            <p class="fa fa-code-fork">{{forkCount}}</p>
+          </view>
+          <view style="margin-right: 15rpx;">
+            <p class="fa fa-star-o">{{starCount}}</p>
+          </view>
+          <view style="margin-right: 15rpx;">
+            <p class="fa fa-level-up">{{prCount}}</p>
+          </view>
+          <view>
+            <p>Updated {{updateTime}} ago</p>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
-  <view class="pin_col">
+</template>
+
+<view class="container">
+  <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
+    <p>Pinned</p>
+    <p class="fa fa-pencil"></p>
+  </view>
+  <view class="pin_col" wx:for="{{3}}">
     <view class="pin_row">
       <view class="card pin" wx:for="{{2}}" >
         <view class="card-main">
-          <view class="card-inner">
+          <view class="card-inner" onclick=>
             <view class="header">
               <p style="color: #1990FF;">EE308</p>
-              <i class="fas fa-pencil-alt">4</i>
+              <p class="fa fa-code-fork">{{4}}</p>
+            </view>
+            <view>
+              <p style="font-size:xx-small; color:#d2d2d2">Updated {{2+" days"}} ago</p>
+            </view>
+            <view style="text-align: right; margin-top: 10rpx;">
+              <p class="priv">{{"Public"}}</p>
             </view>
           </view>
         </view>
       </view> 
     </view>
   </view>
-  <view class="header" style="margin: 12rpx 24rpx;">
-    <p>Pinned</p>
+
+  <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
+    <p>Repository</p>
+  </view>
+  <view class="pin_col" wx:for="{{2}}">
+    <view class="card" style="margin: 18rpx 24rpx;">
+      <view class="card-main">
+        <view class="card-inner">
+          <view class="header">
+            <p style="color: #1990FF;">EE308</p>
+            <p class="priv">{{"Public"}}</p>
+          </view>
+          <view>
+            <p style="font-size:xx-small;">Forked from {{"DEFAULT/test_repo"}}</p>
+          </view>
+          <view style="display: flex; flex-direction: row; font-size: small; margin-top: 15rpx;">
+            <view style="margin-right: 15rpx;">
+              <p class="fa fa-code-fork">{{4}}</p>
+            </view>
+            <view style="margin-right: 15rpx;">
+              <p class="fa fa-star-o">{{4}}</p>
+            </view>
+            <view style="margin-right: 15rpx;">
+              <p class="fa fa-level-up">{{4}}</p>
+            </view>
+            <view>
+              <p>Updated {{2+" days"}} ago</p>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>
 

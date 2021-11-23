@@ -1,19 +1,4 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
-}
-
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
 .card {
 	background-color: #fff;
 	box-shadow: 0 0rpx 0 #e5e5e5,0 0 15rpx rgba(0,0,0,.12),0 2rpx 4rpx rgba(0,0,0,.05);
@@ -43,6 +28,7 @@
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+  align-items: center;
 }
 
 .pin_col {
@@ -58,4 +44,11 @@
 .pin{
   margin: 18rpx 24rpx;
   width: 50%
+}
+
+.priv{
+  padding: 0 15rpx;
+  border-radius: 15px;
+  border: 1rpx solid #d2d2d2;
+  font-size: xx-small;
 }
