@@ -1,2 +1,4 @@
 <!--pages/members/index.wxml-->
-<text>pages/members/index.wxml</text>
+<text>People</text>
+<view></view>
+<text>Teams</text>

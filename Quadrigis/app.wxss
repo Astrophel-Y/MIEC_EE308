@@ -1,7 +1,9 @@
 /**app.wxss**/
 @import "css/font-awesome.wxss";
 @import "css/stylesheet.wxss";
-
+page{
+  background-color: darkgrey;
+}
 .container {
   height: 100%;
   display: flex;

@@ -1,2 +1,120 @@
 <!--pages/settings/index.wxml-->
-<text>pages/settings/index.wxml</text>
+
+<view class="container">
+      <view>
+            
+      </view >
+      <view class="setmenu">
+            <view class="menu_section">Organizaiton</view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Profile</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Member privileges</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Organization security</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Audit log</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Third party access</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Repository setting</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">More settings</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+      </view>
+      <view>
+            
+      </view>
+      <view class="setmenu">
+            <view class="menu_section">Mini Program</view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Binding Organization</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Functions</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+            <view bindtap='goToTalkPage' hover-class="set_tapped">
+                  <view class="menu">
+                        <view class="menu_text">Other Settings</view>
+                        <view>
+                              <image src="../../images/arrow.svg" class="menu_arrow"></image>
+                        </view>
+                  </view>
+            </view>
+      </view>
+      <navigator  url="./login/index">点我，跳转到登录界面</navigator>
+      <view bindtap='jump'>跳转</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

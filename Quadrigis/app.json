@@ -5,7 +5,8 @@
         "pages/members/index",
         "pages/projects/index",
         "pages/settings/index",
-        "pages/index/repository/repository"
+        "pages/index/repository/repository",
+        "pages/settings/login/index"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
