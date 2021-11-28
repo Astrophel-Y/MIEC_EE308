@@ -2,7 +2,7 @@
     "pages": [
         "pages/index/index",
         "pages/logs/logs",
-        "pages/members/index",
+        "pages/members/members",
         "pages/projects/index",
         "pages/settings/index",
         "pages/index/repository/codes",
@@ -27,7 +27,7 @@
                 "selectedIconPath": "images/home-2.png"
             },
             {
-                "pagePath": "pages/members/index",
+                "pagePath": "pages/members/members",
                 "iconPath": "images/members-1.png",
                 "selectedIconPath": "images/members-2.png"
             },
