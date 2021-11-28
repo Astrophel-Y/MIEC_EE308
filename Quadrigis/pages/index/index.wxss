@@ -1,4 +1,8 @@
 /**index.wxss**/
+.mainbody{
+  background-color: #fff;
+}
+
 .card {
 	background-color: #fff;
 	box-shadow: 0 0rpx 0 #e5e5e5,0 0 15rpx rgba(0,0,0,.12),0 2rpx 4rpx rgba(0,0,0,.05);
