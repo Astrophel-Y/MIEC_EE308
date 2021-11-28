@@ -1,62 +1,14 @@
 <!--index.wxml-->
-<template name="card_pinned">
-  <view class="card pin">
-    <view class="card-main">
-      <view class="card-inner">
-        <view class="header">
-          <p style="color: #1990FF;">{{repoName}}</p>
-          <p class="fa fa-code-fork">{{forkCount}}</p>
-        </view>
-        <view>
-          <p style="font-size:xx-small; color:#d2d2d2">Updated {{updateTime}} ago</p>
-        </view>
-        <view style="text-align: right; margin-top: 10rpx;">
-          <p class="priv">{{privacyState}}</p>
-        </view>
-      </view>
-    </view>
-  </view> 
-</template>
 
-<template name="card_repo">
-  <view class="card" style="margin: 18rpx 24rpx;">
-    <view class="card-main">
-      <view class="card-inner">
-        <view class="header">
-          <p style="color: #1990FF;">{{repoName}}</p>
-          <p class="priv">{{privacyState}}</p>
-        </view>
-        <view>
-          <p style="font-size:xx-small;">Forked from {{forkRepo}}</p>
-        </view>
-        <view style="display: flex; flex-direction: row; font-size: small; margin-top: 15rpx;">
-          <view style="margin-right: 15rpx;">
-            <p class="fa fa-code-fork">{{forkCount}}</p>
-          </view>
-          <view style="margin-right: 15rpx;">
-            <p class="fa fa-star-o">{{starCount}}</p>
-          </view>
-          <view style="margin-right: 15rpx;">
-            <p class="fa fa-level-up">{{prCount}}</p>
-          </view>
-          <view>
-            <p>Updated {{updateTime}} ago</p>
-          </view>
-        </view>
-      </view>
-    </view>
-  </view>
-</template>
-
-<view class="container">
+<view class="container mainbody">
   <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
-    <p>Pinned</p>
+    <h>Pinned</h>
     <p class="fa fa-pencil"></p>
   </view>
   <view class="pin_col" wx:for="{{3}}">
     <view class="pin_row">
       <view class="card pin" wx:for="{{2}}" >
-        <view class="card-main">
+        <view class="card-main" bindtap="viewRepo">
           <view class="card-inner">
             <view class="header">
               <p style="color: #1990FF;">EE308</p>
@@ -75,7 +27,7 @@
   </view>
 
   <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
-    <p style="width: 350rpx;">Repositories</p>
+    <h style="width: 350rpx;">Repositories</h>
     <view>
       <p>All</p>
     </view>
@@ -86,7 +38,7 @@
   </view>
   <view class="pin_col" wx:for="{{2}}">
     <view class="card" style="margin: 18rpx 24rpx;">
-      <view class="card-main">
+      <view class="card-main" bindtap="viewRepo">
         <view class="card-inner">
           <view class="header">
             <p style="color: #1990FF;">EE308</p>
