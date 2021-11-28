@@ -13,7 +13,15 @@ App({
       }
     })
   },
+  
+
   globalData: {
-    userInfo: null
+    userInfo: null,
+    orgRepoNum: null,
+    repos: {},
+    ghToken: null,
+    ghUserName: null,
+    ghUserPasswd: null,
+    ghOrgName: null,
   }
 })

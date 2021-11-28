@@ -50,13 +50,13 @@
 
 <view class="container">
   <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
-    <p>Pinned</p>
+    <h>Pinned</h>
     <p class="fa fa-pencil"></p>
   </view>
   <view class="pin_col" wx:for="{{3}}">
     <view class="pin_row">
       <view class="card pin" wx:for="{{2}}" >
-        <view class="card-main">
+        <view class="card-main" bindtap="viewRepo">
           <view class="card-inner">
             <view class="header">
               <p style="color: #1990FF;">EE308</p>
@@ -75,7 +75,7 @@
   </view>
 
   <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
-    <p style="width: 350rpx;">Repositories</p>
+    <h style="width: 350rpx;">Repositories</h>
     <view>
       <p>All</p>
     </view>
@@ -86,7 +86,7 @@
   </view>
   <view class="pin_col" wx:for="{{2}}">
     <view class="card" style="margin: 18rpx 24rpx;">
-      <view class="card-main">
+      <view class="card-main" bindtap="viewRepo">
         <view class="card-inner">
           <view class="header">
             <p style="color: #1990FF;">EE308</p>
