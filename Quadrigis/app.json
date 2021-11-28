@@ -5,14 +5,10 @@
         "pages/members/index",
         "pages/projects/index",
         "pages/settings/index",
-<<<<<<< HEAD
         "pages/index/repository/codes",
         "pages/index/repository/issues",
-        "pages/index/repository/pullrequest"
-=======
-        "pages/index/repository/repository",
+        "pages/index/repository/pullrequest",
         "pages/settings/login/index"
->>>>>>> upstream/dev
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
