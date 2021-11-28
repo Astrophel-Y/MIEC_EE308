@@ -1,1 +1,84 @@
-/* pages/index/repository/codes.wxss */
+/* pages/index/repository/repository.wxss */
+.button_code {
+    margin-top: 80rpx;
+    flex-direction: row;
+  }
+  
+  .master{
+    width: 200rpx;
+    height: 40rpx;
+   line-height: 40rpx;
+  
+    text-align: center;
+  
+    float: left;
+    margin-left: 10rpx;
+  
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #e2d9d9;
+  }
+  
+  .more{
+    width: 100rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+  
+    text-align: center;
+  
+    float: right;
+    
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #e2d9d9;
+  }
+  
+  .fetch{
+    width: 200rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+  
+    text-align: center;
+  
+    float: right;
+  
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #e2d9d9;
+  }
+  
+  .button_table{
+    flex-direction: column;
+  }
+  
+  .username{
+    width: 735rpx;
+    height: 60rpx;
+   line-height: 60rpx;
+  
+    margin-top: 60rpx;
+  
+    float: left;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+  
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #e2d9d9;
+  }
+  
+  .code{
+    width: 735rpx;
+    height: 400rpx;
+   line-height: 400rpx;
+  
+    text-align: center;
+  
+    float: left;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+  
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+  }

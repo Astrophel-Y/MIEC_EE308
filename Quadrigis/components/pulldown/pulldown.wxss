@@ -1,0 +1,39 @@
+ .select_box{
+  position: relative;
+ }
+ .select{
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+ }
+ .select_text{
+  flex: 1;
+  font-size: 30rpx;
+ }
+ .select_img{
+  width: 20rpx;
+  height: 20rpx;
+  display: block;
+  transition:transform 0.3s;
+ }
+ .select_img_rotate{
+  transform:rotate(180deg); 
+ }
+ .option_box{
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  border:1px solid #d2d2d2;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  background: #fff;
+  transition: height 0.3s;
+ }
+ .option{
+  display: block;
+  line-height: 40rox;
+  font-size: 30rpx;
+  border-bottom: 1px solid #d2d2d2;
+  padding: 10rpx;
+ }

@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "pulldown": "/components/pulldown/pulldown"
+  }
 }

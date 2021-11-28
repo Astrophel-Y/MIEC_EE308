@@ -1,0 +1,22 @@
+/* pages/members/index.wxss */
+.Signin{
+  font-size: 40rpx;
+  color:black;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+    .avatar-wrapper .avatar image {
+      width: 200rpx;
+      height: 200rpx;
+    }
+    .avatar-wrapper .avatar {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .btn {
+      width: 90%;
+      margin-top: 30rpx;
+      background-color: #1990ff;
+      color: #FFF;
+    }

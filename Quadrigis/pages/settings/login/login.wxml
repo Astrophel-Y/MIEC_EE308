@@ -1,0 +1,20 @@
+<!--pages/members/index.wxml-->
+
+
+<view class="avatar-wrapper">
+	<view>
+      <view class="avatar">
+			<image style="border-radius:50%;" src="{{isShowUserName ? userInfo.avatarUrl:'/images/gh.jpeg'}}"></image>
+         <text class='Signin'>Sign in to GitHub</text>
+		</view>
+   </view>
+</view>
+
+<form>
+   Account: <input bind:focus="focus" bind:blur="blur" type="text" style="border: 1rpx solid #CCC"/>
+</form>
+<form>
+   Token: <input bind:focus="focus" bind:blur="blur" type="text" style="border: 1rpx solid #CCC"/>
+</form>
+<button class='btn' bindtap='sumbit' >Sign in</button>
+

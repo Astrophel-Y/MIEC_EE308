@@ -1,22 +1,19 @@
-// pages/settings/index.js
+// pages/members/index.js
 Page({
-    myclick: function(param){
-    wx.navigateTo({url:'/pages/settings/login/login',})
-  },
     /**
      * 页面的初始数据
      */
     data: {
-      
+
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-      
+
     },
-    
+
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
@@ -49,7 +46,7 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh: function () {
-     
+
     },
 
     /**
@@ -58,12 +55,11 @@ Page({
     onReachBottom: function () {
 
     },
-    
+
     /**
      * 用户点击右上角分享
      */
     onShareAppMessage: function () {
 
     }
-   
 })

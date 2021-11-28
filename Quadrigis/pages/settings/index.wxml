@@ -1,5 +1,22 @@
 <!--pages/settings/index.wxml-->
 
+<view class="avatar-wrapper">
+	<view>
+      <view class="avatar">
+	      <image style="border-radius:50%;" src="{{isShowUserName ? userInfo.avatarUrl:'/images/gh.jpeg'}}"></image>
+                  <view></view>
+                  <text class='Team'>MIEC EE308 Team</text>
+            <view></view>
+      <text class='Teamname'>DEFAULT</text>
+	</view>
+</view></view>
+                 
+
+<view></view>
+<text class='user_msg'><text class="describe">Organization describe:</text>
+<text class="content">This organization is contituded by four student in Fuzhou University </text>
+
+</text>
 <view class="container">
       <view>
             
@@ -93,9 +110,10 @@
                   </view>
             </view>
       </view>
-      <navigator  url="./login/index">点我，跳转到登录界面</navigator>
-      <view bindtap='jump'>跳转</view>
+      
 </view>
+      <view class="login-item bottom">
+      <button class="login-btn" bindtap="myclick">Log in</button></view>
 
 
 

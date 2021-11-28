@@ -8,7 +8,7 @@
   <view class="pin_col" wx:for="{{3}}">
     <view class="pin_row">
       <view class="card pin" wx:for="{{2}}" >
-        <view class="card-main" bindtap="viewRepo">
+        <view class="card-main" catchtap="viewRepo">
           <view class="card-inner">
             <view class="header">
               <p style="color: #1990FF;">EE308</p>
@@ -27,9 +27,9 @@
   </view>
 
   <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
-    <h style="width: 350rpx;">Repositories</h>
-    <view>
-      <p>All</p>
+    <h style="width: 50%;">Repositories</h>
+    <view style="width: 15%;">
+      <pulldown selectData="{{repoFilter}}"></pulldown>
     </view>
     <view>
       <p class="fa fa-sort-alpha-asc"></p>
@@ -38,7 +38,7 @@
   </view>
   <view class="pin_col" wx:for="{{2}}">
     <view class="card" style="margin: 18rpx 24rpx;">
-      <view class="card-main" bindtap="viewRepo">
+      <view class="card-main" catchtap="viewRepo">
         <view class="card-inner">
           <view class="header">
             <p style="color: #1990FF;">EE308</p>

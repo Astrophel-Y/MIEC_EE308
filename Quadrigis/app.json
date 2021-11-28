@@ -8,7 +8,7 @@
         "pages/index/repository/codes",
         "pages/index/repository/issues",
         "pages/index/repository/pullrequest",
-        "pages/settings/login/index"
+        "pages/settings/login/login"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",

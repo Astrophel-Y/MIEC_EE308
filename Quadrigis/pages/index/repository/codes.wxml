@@ -1,2 +1,11 @@
-<!--pages/index/repository/codes.wxml-->
-<text>pages/index/repository/codes.wxml</text>
+<!--pages/index/repository/repository.wxml-->
+<view class="button_code">
+  <view class='master'>master</view>
+  <view class='more'>...</view>
+  <view class='fetch'>fetch</view>
+  </view>
+
+  <view class="button_table">
+  <view class='username'>username</view>
+  <view class='code'>code</view>
+</view>
