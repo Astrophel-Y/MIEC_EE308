@@ -5,7 +5,9 @@
         "pages/members/index",
         "pages/projects/index",
         "pages/settings/index",
-        "pages/index/repository/repository"
+        "pages/index/repository/codes",
+        "pages/index/repository/issues",
+        "pages/index/repository/pullrequest"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
