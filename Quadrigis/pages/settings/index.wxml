@@ -1,6 +1,5 @@
 <!--pages/settings/index.wxml-->
 <view class="container">
-
       <view >
             <view class="background">
                   <image src="../../images/bg.jpg"></image>

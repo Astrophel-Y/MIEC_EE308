@@ -5,6 +5,6 @@
   <image class='select_img {{show&&"select_img_rotate"}}' src='/images/arrow_down.svg'></image>   
  </view>
  <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;' hidden="{{!show}}">
-  <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+  <text class='option' style='{{index==selectData.length-1&&"border:0;"+" font-size:"+16-1.5*selectContent.length+"rpx;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
  </view>
 </view>

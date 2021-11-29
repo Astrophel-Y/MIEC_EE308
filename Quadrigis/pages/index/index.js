@@ -15,6 +15,7 @@ Page({
     repoFilter:["All","Public","Private","Sources","Forks","Archived","Mirrors"],
     order:["Last Updated","Name","Stars"]
   },
+  
   // 事件处理函数
   viewRepo() {
     wx.navigateTo({
@@ -24,6 +25,13 @@ Page({
   getComponent: function () {
     const comp = this.selectComponent('.pulldown');
   },
+  editpin() {
+
+  },
+  createRepo() {
+
+  },
+
   onLoad() {
     if (wx.getUserProfile) {
       this.setData({
