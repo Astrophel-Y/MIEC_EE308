@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "Member",
-  "usingComponents": {}
+  "usingComponents": {
+    "topbar": "../../components/topbar/topbar"
+  }
 }

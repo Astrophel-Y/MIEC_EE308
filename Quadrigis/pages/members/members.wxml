@@ -1,16 +1,5 @@
 <!--pages/members/members.wxml-->
-<!--<text>pages/members/members.wxml</text>-->
-<!--顶部滑动导航栏（两项）People和Teams-->
-<view class="nav">
-<view id="0" class="{{currentIndex==0?'selected':'normal'}}"
-bindtap='changeCurrentIndex'>
-<view>People</view>
-</view>
-<view id="1" class="{{currentIndex==1?'selected':'normal'}}"
-bindtap='changeCurrentIndex'>
-<view>Teams</view>
-</view>
-</view>
+<topbar></topbar>
 <view class="flex-left navbar" style='height:{{navHeight}}px;'>
   <view class="navbar-return" style='top:{{navTop}}px'>
     <text class="iconfont icon-arrow-left" bindtap="goBack"></text>
@@ -23,7 +12,6 @@ bindtap='changeCurrentIndex'>
   </view>
 </view>
 <view class="container">
- 
   <scroll-view scroll-x style="width:90%;white-space: nowrap;margin-top:20px;">
     <block wx:for="{{contentList}}">
       <view class="{{isShowAll?'view-column-all':'view-column'}}" style="">

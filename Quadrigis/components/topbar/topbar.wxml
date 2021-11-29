@@ -1,0 +1,9 @@
+<!--components/topBar/topbar.wxml-->
+<view class="nav">
+  <view id="0" class="nav-option" catchtap='changeCurrentIndex'>
+    <view class="{{currentIndex==0?'selected':'normal'}}">People</view>
+  </view>
+  <view id="1" class="nav-option" catchtap='changeCurrentIndex'>
+    <view class="{{currentIndex==1?'selected':'normal'}}">Teams</view>
+  </view>
+</view>

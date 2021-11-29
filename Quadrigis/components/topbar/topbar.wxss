@@ -1,0 +1,25 @@
+/* components/topBar/topbar.wxss */
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFF;
+    padding-top:1rpx;
+  }
+.selected{
+    color:  #1990ff;
+    border-bottom:3px solid #1990ff;
+    text-align: center;
+    padding-bottom:3rpx;
+  }
+  .normal{
+    border-bottom: 3px solid rgba(255,255,255,0);
+    text-align: center;
+    padding-bottom:3rpx;
+  }
+
+  .nav-option{
+    justify-content: center;
+    flex-basis: 50%;
+  }
+

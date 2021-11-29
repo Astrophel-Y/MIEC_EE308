@@ -1,19 +1,4 @@
 /* pages/members/index.wxss */
-.nav{
-  display: flex;
-}
-.selected{
-  width: 130rpx;
-  margin-left:200rpx ;
-  border-bottom:2rpx solid blue;
-  text-align: center;
-}
-.normal{
-  width: 80rpx;
-  margin-left:200rpx ;
-  border-bottom:none;
-  text-align: center;
-}
 .navbar{
   width: 100%;
   overflow: hidden;

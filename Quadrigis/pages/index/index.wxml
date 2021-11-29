@@ -28,11 +28,11 @@
 
   <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
     <h style="width: 50%;">Repositories</h>
-    <view style="width: 15%;">
-      <pulldown selectData="{{repoFilter}}"></pulldown>
+    <view style="width: 20%;">
+      <pulldown selectData="{{repoFilter}}" selectContent="Type"></pulldown>
     </view>
     <view>
-      <p class="fa fa-sort-alpha-asc"></p>
+      <pulldown selectData="{{order}}" selectContent="Sort"></pulldown>
     </view>
     <p class="fa fa-plus"></p>
   </view>

@@ -3,8 +3,8 @@
 
 <view class="avatar-wrapper">
 	<view>
-      <view class="avatar">
-			<image style="border-radius:50%;" src="{{isShowUserName ? userInfo.avatarUrl:'/images/gh.jpeg'}}"></image>
+      <view class="avatar" style="display:flex; flex-direction: column;">
+			<image style="border-radius:50%;" src="/images/gh.jpeg"></image>
          <text class='Signin'>Sign in to GitHub</text>
 		</view>
    </view>

@@ -1,9 +1,10 @@
+<view class="mask" bindtap="selectTap" hidden="{{!show}}"></view>
 <view class='select_box'>
  <view class='select' catchtap='selectTap'>
-  <text class='select_text'>{{selectData[index]}}</text>
+  <text class='select_text' style='font-size:{{36-1.5*selectContent.length}}rpx;'>{{selectContent}}</text>
   <image class='select_img {{show&&"select_img_rotate"}}' src='/images/arrow_down.svg'></image>   
  </view>
- <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+ <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;' hidden="{{!show}}">
   <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
  </view>
 </view>

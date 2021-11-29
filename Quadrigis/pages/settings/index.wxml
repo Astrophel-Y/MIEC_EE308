@@ -1,26 +1,21 @@
 <!--pages/settings/index.wxml-->
-
-<view class="avatar-wrapper">
-	<view>
-      <view class="avatar">
-	      <image style="border-radius:50%;" src="{{isShowUserName ? userInfo.avatarUrl:'/images/gh.jpeg'}}"></image>
-                  <view></view>
-                  <text class='Team'>MIEC EE308 Team</text>
-            <view></view>
-      <text class='Teamname'>DEFAULT</text>
-	</view>
-</view></view>
-                 
-
-<view></view>
-<text class='user_msg'><text class="describe">Organization describe:</text>
-<text class="content">This organization is contituded by four student in Fuzhou University </text>
-
-</text>
 <view class="container">
-      <view>
-            
+
+      <view >
+            <view class="background">
+                  <image src="../../images/bg.jpg"></image>
+            </view>
+            <view class="org-profile">
+                  <image class="avatar" src="{{isShowUserName ? userInfo.avatarUrl:'/images/gh.jpeg'}}"></image>
+                  <view style="display: flex; flex-direction: column;">
+                        <text class="org-name">MIEC EE308 Team DEFAULT</text>
+                        <text class="email">Astrophely@outlook.com</text>
+                  </view>
+                  <view></view>
+            </view>
+            <text class="org-desc">Organizaiton Description...</text>
       </view >
+
       <view class="setmenu">
             <view class="menu_section">Organizaiton</view>
             <view bindtap='goToTalkPage' hover-class="set_tapped">

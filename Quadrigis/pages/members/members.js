@@ -2,9 +2,6 @@
 
 const App = getApp();
 Page({
-  
-
-
   /**
    * 页面的初始数据
    */
@@ -18,8 +15,8 @@ Page({
   },
   data: {
     // 自定义顶部导航
-    navHeight: App.globalData.navHeight,
-    navTop: App.globalData.navTop,
+    navHeight: 90,
+    navTop: 90,
   },
   goBack() {
     let pages = getCurrentPages();   //获取小程序页面栈
@@ -32,10 +29,6 @@ Page({
     contentList: [[ 1, 2, 3, 4, ], ["Astrophel", "hs1215", "Siesta123456", "Yongji-Nan"], ["Owner", "member", "member", "member"], ["1 team", "1 team", "1 team", "1 team"]],
     isShowAll:false
   },
-
-  
-
-
   /**
    * 生命周期函数--监听页面加载
    */
