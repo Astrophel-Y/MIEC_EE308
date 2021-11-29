@@ -32,9 +32,9 @@
   background: #fff;
  }
  .option{
+  font-size: 30rpx;
   z-index: 99;
   display: block;
-  font-size: 30rpx;
   border-bottom: 1px solid #d2d2d2;
   padding: 10rpx;
  }

@@ -1,9 +1,9 @@
 <!--index.wxml-->
 
 <view class="container mainbody">
-  <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
+  <view class="header section-header">
     <h>Pinned</h>
-    <p class="fa fa-pencil"></p>
+    <p class="fa fa-pencil setfas" catchtap="editPin" hover-class="setfas-tapped"></p>
   </view>
   <view class="pin_col" wx:for="{{3}}">
     <view class="pin_row">
@@ -26,7 +26,7 @@
     </view>
   </view>
 
-  <view class="header" style="margin: 12rpx 24rpx; font-size: larger;">
+  <view class="header section-header">
     <h style="width: 50%;">Repositories</h>
     <view style="width: 20%;">
       <pulldown selectData="{{repoFilter}}" selectContent="Type"></pulldown>
@@ -34,7 +34,7 @@
     <view>
       <pulldown selectData="{{order}}" selectContent="Sort"></pulldown>
     </view>
-    <p class="fa fa-plus"></p>
+    <p class="fa fa-plus setfas" catchtap="createRepo" hover-class="setfas-tapped"></p>
   </view>
   <view class="pin_col" wx:for="{{2}}">
     <view class="card" style="margin: 18rpx 24rpx;">
