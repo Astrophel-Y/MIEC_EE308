@@ -8,10 +8,7 @@
 	box-shadow: 0 0 15rpx rgba(0,0,0,.12),0 2rpx 4rpx rgba(0,0,0,.05);
   display: flex;
   border-radius: 10px;
-}
-
-.card-inner {
-  margin: 24rpx 16rpx
+  padding: 24rpx 16rpx;
 }
 
 .card-main {
@@ -37,17 +34,12 @@
 
 .pin_col {
   display: flex;
-  flex-direction: column;
-}
-
-.pin_row {
-  display: flex;
   flex-direction: row;
 }
 
-.pin{
+.pin_row{
   margin: 18rpx 24rpx;
-  width: 50%
+  width: 50%;
 }
 
 .priv{
@@ -58,10 +50,12 @@
 }
 
 .setfas{
+  text-align: center;
+  flex:0 0 50rpx;
   padding-right: 5rpx;
   font-size: 45rpx
 }
 
 .setfas-tapped{
-  font-size: 35rpx
+  font-size: 40rpx;
 }

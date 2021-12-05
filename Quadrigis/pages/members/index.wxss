@@ -1,5 +1,7 @@
 /* pages/members/index.wxss */
-.text-shrink {
+
+/* style of People page */
+  .text-shrink {
     font-size: 16px;
     display: block;
     overflow: hidden;
@@ -12,8 +14,12 @@
     text-align: center;
   }
   .view-column{
-    width:25%;display:inline-block;
+    width:25%;
+    display:inline-block;
   }
   .view-column-all{
-    min-width:25%;display:inline-block;
+    min-width:25%;
+    display:inline-block;
   }
+
+/* style of Teams page */

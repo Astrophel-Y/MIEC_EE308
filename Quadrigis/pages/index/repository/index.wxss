@@ -1,4 +1,7 @@
 /* pages/index/repository/index.wxss */
+
+/* styles of Codes page*/
+
 .button_code {
     margin-top: 80rpx;
     flex-direction: row;
@@ -82,3 +85,7 @@
     color: rgb(0, 0, 0);
     background-color: #ffffff;
   }
+
+/* style of Issues page */
+
+/* style of Pull requests page */
