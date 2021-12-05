@@ -1,0 +1,8 @@
+<!--pages/members/index.wxml-->
+<topbar optionData="{{optionData}}" bind:changeNaviIndex="onGetIndex"/>
+<view wx:if="{{pageIndex == 0}}">
+  <include src="members.wxml"/>
+</view>
+<view wx:else>
+  <include src="teams.wxml"/>
+</view>

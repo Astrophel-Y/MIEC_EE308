@@ -1,9 +1,10 @@
 /* pages/settings/index.wxss */
 .background{
   position: absolute;
-  width:100%;
+  width: 100%;
   top:0;
   left:0;
+  right:0;
   z-index: -1;
 }
 .menu_section{
@@ -49,10 +50,9 @@
 }
 
 .avatar{
-  flex:0 1 225rpx;
+  flex:0 1 30vw;
   border-radius:50%;
-  width: 175rpx; 
-  height: 175rpx;
+  height:30vw;
   border: 3px solid #d2d2d2;
   margin: 0 25rpx;
   box-shadow: 0 0 15rpx rgba(0,0,0,.12),0 2rpx 4rpx rgba(0,0,0,.05);

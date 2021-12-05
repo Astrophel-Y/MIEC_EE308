@@ -1,5 +1,4 @@
 <!--pages/index/repository/repository.wxml-->
-<topbar></topbar>
 <view class="button_code">
   <view class='master'>master</view>
   <view class='more'>...</view>

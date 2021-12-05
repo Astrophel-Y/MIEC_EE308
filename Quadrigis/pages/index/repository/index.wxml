@@ -1,0 +1,17 @@
+<!--pages/index/repository/index.wxml-->
+<topbar optionData="{{optionData}}" bind:changeNaviIndex="onGetIndex"/>
+<view wx:if="{{pageIndex == 1}}">
+  <include src="issues.wxml"/>
+</view>
+<view wx:elif="{{pageIndex == 2}}">
+  <include src="pullrequest.wxml"/>
+</view>
+<view wx:elif="{{pageIndex == 3}}">
+  <include src="issues.wxml"/>
+</view>
+<view wx:elif="{{pageIndex == 4}}">
+  <include src="issues.wxml"/>
+</view>
+<view wx:else>
+  <include src="codes.wxml"/>
+</view>

@@ -1,13 +1,19 @@
-// pages/index/repository/codes.js
+// pages/index/repository/index.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        optionData:["Codes","Issues","Pull requests","Actions","Others"],
+        pageIndex: 0
     },
 
+    onGetIndex(e){
+        this.setData({
+            pageIndex: e.detail.val
+        })
+    },
     /**
      * 生命周期函数--监听页面加载
      */

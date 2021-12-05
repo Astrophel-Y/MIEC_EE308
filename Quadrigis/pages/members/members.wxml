@@ -1,20 +1,8 @@
 <!--pages/members/members.wxml-->
-<topbar></topbar>
-<view class="flex-left navbar" style='height:{{navHeight}}px;'>
-  <view class="navbar-return" style='top:{{navTop}}px'>
-    <text class="iconfont icon-arrow-left" bindtap="goBack"></text>
-  </view>
-  <view class="navbar-title" style='top:{{navTop}}px'>
-    <view class="flex-left search-content">
-      <text class="iconfont icon-search"></text>
-      <input bindtap="toSearch" class="search-input" type="text" placeholder="Find a member" placeholder-class="place-holder" />
-    </view>
-  </view>
-</view>
 <view class="container">
   <scroll-view scroll-x style="width:90%;white-space: nowrap;margin-top:20px;">
     <block wx:for="{{contentList}}">
-      <view class="{{isShowAll?'view-column-all':'view-column'}}" style="">
+      <view class="{{isShowAll?'view-column-all':'view-column'}}">
         <block wx:for="{{item}}" wx:for-index="subIndex" wx:for-item="subItem">
         <view style="width:100%;background:{{(subIndex%2==10)?'rgb(206, 236, 255)':'white'}};padding:10px 0;border:1px solid blue" bindtap="showAll">
           <text class="{{isShowAll?'text-all':'text-shrink'}}" style="width:100%">{{subItem}}</text>

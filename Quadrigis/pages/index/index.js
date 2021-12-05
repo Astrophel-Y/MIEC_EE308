@@ -19,7 +19,7 @@ Page({
   // 事件处理函数
   viewRepo() {
     wx.navigateTo({
-      url: '../index/repository/codes'
+      url: '../index/repository/index'
     })
   },
   getComponent: function () {

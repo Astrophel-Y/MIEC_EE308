@@ -2,13 +2,11 @@
     "pages": [
         "pages/index/index",
         "pages/logs/logs",
-        "pages/members/members",
         "pages/projects/index",
         "pages/settings/index",
-        "pages/index/repository/codes",
-        "pages/index/repository/issues",
-        "pages/index/repository/pullrequest",
-        "pages/settings/login/login"
+        "pages/settings/login/login",
+        "pages/index/repository/index",
+        "pages/members/index"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
@@ -27,7 +25,7 @@
                 "selectedIconPath": "images/home-2.png"
             },
             {
-                "pagePath": "pages/members/members",
+                "pagePath": "pages/members/index",
                 "iconPath": "images/members-1.png",
                 "selectedIconPath": "images/members-2.png"
             },

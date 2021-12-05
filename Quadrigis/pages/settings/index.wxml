@@ -1,9 +1,7 @@
 <!--pages/settings/index.wxml-->
 <view class="container">
       <view >
-            <view class="background">
-                  <image src="../../images/bg.jpg"></image>
-            </view>
+            <image src="../../images/bg.jpg" class="background"></image>
             <view class="org-profile">
                   <image class="avatar" src="{{isShowUserName ? userInfo.avatarUrl:'/images/gh.jpeg'}}"></image>
                   <view style="display: flex; flex-direction: column;">

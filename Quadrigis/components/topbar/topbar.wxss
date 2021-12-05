@@ -9,17 +9,12 @@
 .selected{
     color:  #1990ff;
     border-bottom:3px solid #1990ff;
+    padding: 0 5rpx 5rpx 5rpx;
     text-align: center;
-    padding-bottom:3rpx;
   }
   .normal{
     border-bottom: 3px solid rgba(255,255,255,0);
+    padding: 0 5rpx 5rpx 5rpx;
     text-align: center;
-    padding-bottom:3rpx;
-  }
-
-  .nav-option{
-    justify-content: center;
-    flex-basis: 50%;
   }
 

@@ -1,9 +1,6 @@
 <!--components/topBar/topbar.wxml-->
 <view class="nav">
-  <view id="0" class="nav-option" catchtap='changeCurrentIndex'>
-    <view class="{{currentIndex==0?'selected':'normal'}}">People</view>
-  </view>
-  <view id="1" class="nav-option" catchtap='changeCurrentIndex'>
-    <view class="{{currentIndex==1?'selected':'normal'}}">Teams</view>
+  <view wx:for="{{optionData}}" wx:key='this' data-index='{{index}}' catchtap='changeCurrentIndex'>
+    <view class="{{currentIndex === index?'selected':'normal'}}" style="font-size: {{6-0.5*optionData.length}}vw;">{{item}}</view>
   </view>
 </view>

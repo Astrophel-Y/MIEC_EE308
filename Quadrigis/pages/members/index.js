@@ -1,13 +1,23 @@
-// pages/index/repository/issues.js
+// pages/members/index.js
+const App = getApp();
+
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        optionData:["People","Teams"],
+        pageIndex: 0,
+        contentList: [[ 1, 2, 3, 4, ], ["Astrophel", "hs1215", "Siesta123456", "Yongji-Nan"], ["Owner", "member", "member", "member"], ["1 team", "1 team", "1 team", "1 team"]],
+        isShowAll:false
     },
 
+    onGetIndex(e){
+        this.setData({
+            pageIndex: e.detail.val
+        })
+    },
     /**
      * 生命周期函数--监听页面加载
      */
